@@ -6,7 +6,7 @@ In this project, we demonstrates a Security Operations Center (SOC) home lab bui
 ---
 
 
-# Objectives
+# 📌 Objectives
 
 Throughout this project I aimed to:
 
