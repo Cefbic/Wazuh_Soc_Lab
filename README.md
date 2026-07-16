@@ -19,7 +19,8 @@ Throughout this project I aimed to:
 - Investigate alerts generated inside the Wazuh Dashboard
 
 
-🏗️ ![Lab Architecture](Soc_Lab_Images/Lab%20Architecture.png)
+# 🏗️ Lab Architecture 
+![Lab Architecture](Soc_Lab_Images/Lab%20Architecture.png)
 
 
 # 🖥️ Technology Utilized
