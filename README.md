@@ -19,9 +19,7 @@ Throughout this project I aimed to:
 - Investigate alerts generated inside the Wazuh Dashboard
 
 
-
-  
-🏗️ Screenshot [Architecture Diagram]
+🏗️ (/Soc_Lab_Images/Lab Architecture.png)
 
 
 # 🖥️ Technology Utilized
@@ -33,6 +31,7 @@ Throughout this project I aimed to:
 - Kali Linux (Penetration Testing Linux distribution)
 - Windows 10 (OS target Machine)
 - Ubuntu Server/Desktop (Wazuh Manager)
+
 
 # 🛡️ Deploying Wazuh:
 
@@ -79,6 +78,7 @@ Sysmon provides advanced detailed telemetry such as:
 These events were forwarded to Wazuh for analysis.
 
 📷 Screenshot [Sysmon Events inside Wazuh]
+
 
 # File Integrity Monitoring (FIM)
 
