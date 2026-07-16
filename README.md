@@ -1,6 +1,6 @@
 # Wazuh_SOC_Lab 
 
-In this project, we demonstrates a Security Operations Center (SOC) home lab built to simulate real-world security monitoring, threat detection, and incident investigation.
+In this project, we demonstrate a Security Operations Center (SOC) home lab built to simulate real-world security monitoring, threat detection, and incident investigation.
 
 
 ---
@@ -23,7 +23,7 @@ Throughout this project I aimed to:
 ![Lab Architecture](Soc_Lab_Images/Lab%20Architecture.png)
 
 
-# 🖥️ Technology Utilized
+# 🖥️ Technology Used
 - Wazuh (open-source Security Information and Event Management Platform)
 - File Integrity Monitoring (FIM)
 - VirusTotal (Threat Intelligence)
