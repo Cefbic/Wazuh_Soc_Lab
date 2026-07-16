@@ -125,15 +125,17 @@ Attack scenarios included:
 
 # 🚨 Detection & Investigation
 
-After attacks were executed, alerts were investigated using the Wazuh Dashboard.
+After Brute force attacks were executed, alerts were investigated using the Wazuh Dashboard.
 
 Examples of monitored activity include:
 
-- Authentication Failures
-- Failed Login Attempts
-- File Integrity Alerts
-- Sysmon Process Events
-- VirusTotal Reputation Results
+- Hydra generated multiple failed authentication attempts.
+
+- Wazuh generated rule 5.
+
+- Timeline confirmed repeated login failures within seconds.
+
+- No successful authentication occurred.
 
 Each alert includes:
 
