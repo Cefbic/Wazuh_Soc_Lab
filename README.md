@@ -46,8 +46,7 @@ The deployment included:
 
 After installation, all Wazuh services were verified before accessing the web dashboard.
 
-📷 Screenshot [Sysmon Events inside Wazuh]
-
+![Wazuh Dashboard](Soc_Lab_Images/Wazuh_Dashboard.png)
 
 # Configuring the Windows Endpoint
 
@@ -60,7 +59,7 @@ This included:
 - Verifying connectivity
 - Forwarding Windows Event Logs
 
-📷 Screenshot [Agent Connected]
+![Active Agent](Soc_Lab_Images/Endpoint_Active.png)
 
 
 # Sysmon Integration
@@ -78,7 +77,9 @@ Sysmon provides advanced detailed telemetry such as:
 
 These events were forwarded to Wazuh for analysis.
 
-📷 Screenshot [Sysmon Events inside Wazuh]
+![Sysmon Events](Soc_Lab_Images/Sysmon_events.png)
+![Sysmon intergration](Soc_Lab_Images/Sysmon_proof.png)
+
 
 
 # File Integrity Monitoring (FIM)
@@ -93,7 +94,7 @@ The lab validates detection of:
 
 Real-time monitoring allows immediate alert generation whenever monitored files change.
 
-📷 Screenshot [FIM Alert]
+![FIM Events](Soc_Lab_Images/FIM_Alerts.png)
 
 
 # VirusTotal Integration
@@ -104,7 +105,7 @@ Whenever suspicious files are detected, Wazuh automatically queries VirusTotal a
 
 This allows faster triage during investigations.
 
-📷 Screenshot [VirusTotal Alert]
+![VirusTotal events](Soc_Lab_Images/VirusTotal_Alerts.png)
 
 
 # 🔐 Attack Simulation
@@ -119,8 +120,7 @@ Attack scenarios included:
 - File Modifications
 - Suspicious Process Execution
 
-📷 Screenshot [Kali Attack]
-
+![Brute Force Alerts](Soc_Lab_Images/Hydra_attack.png)
 
 # 🚨 Detection & Investigation
 
@@ -139,8 +139,7 @@ Each alert includes:
 - Timestamp
 - Severity Level
 - Source Endpoint
-- MITRE ATT&CK Mapping
 - Event Details
 
-📷 Screenshot [Investigation Dashboard]
+![Brute Force Investigation](Soc_Lab_Images/Brute_Force_Investigation.png)
  
