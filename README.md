@@ -100,6 +100,7 @@ Real-time monitoring allows immediate alert generation whenever monitored files 
 # VirusTotal Integration
 
 VirusTotal was integrated into Wazuh using the public API.
+![VirusTotal API](Soc_Lab_Images/API_Key_VirusTotal.png)
 
 Whenever suspicious files are detected, Wazuh automatically queries VirusTotal and enriches the alert with reputation information.
 
