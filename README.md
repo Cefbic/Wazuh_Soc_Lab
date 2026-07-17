@@ -145,4 +145,19 @@ Each alert includes:
 - Event Details
 
 ![Brute Force Investigation](Soc_Lab_Images/Brute_Force_Investigation.png)
+
+
+# 📝 Lessons Learned
+
+Building this lab required extensive troubleshooting beyond simply deploying the tools.
+
+Some challenges included:
+
+- Resolving Wazuh agent registration issues
+- Troubleshooting network connectivity between virtual machines
+- Validating Sysmon log forwarding
+- Testing VirusTotal integration
+- Verifying alert generation after simulated attacks
+
+Working through these issues improved my understanding of SIEM deployment, endpoint monitoring, Windows logging, and troubleshooting in a SOC environment.
  
